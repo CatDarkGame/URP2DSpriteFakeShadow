@@ -100,7 +100,7 @@ Shader "Hidden/CatDarkGame/Sprite2DShadow"
                 o.positionCS = positionCS;
 
             #if !defined(SPRITE2DSHADOW_ON)
-               o.positionCS = float4(0, 0, 0, sqrt(-1));    // 비활성화 상태에서 버텍스를 카메라 뒤로 이동. 
+               o.positionCS = float4(0, 0, 0, (-1));    // 비활성화 상태에서 버텍스를 카메라 뒤로 이동. 
             #endif
             #if defined(DEBUG_DISPLAY)
                 o.positionWS = TransformObjectToWorld(positionOS.xyz);
