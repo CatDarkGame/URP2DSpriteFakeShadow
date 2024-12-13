@@ -1,4 +1,4 @@
-## URP 2D  Sprite FakeShaodow for 2.5d
+## URP 2D  Sprite FakeShadow for 2.5d
 
 Tested Unity Version : Unity 6000.0.30f1
 
